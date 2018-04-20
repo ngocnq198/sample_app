@@ -40,6 +40,8 @@ en:
       user-new: "Users#new"
       find-me-user: "Find me in app/views/users/new.html.erb"
       sign-up: "Sign up"
+      confirm: "Confirmation"
+      create-account: "Create my account"
   helpers:
     application_helper:
       ruby_sample_app: "Ruby on Rails Tutorial Sample App"
