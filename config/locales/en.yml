@@ -7,6 +7,11 @@ en:
     header:
       sample: "sample app"
       log: "Log in"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      log-out: "Log out"
     footer:
       the: "The"
       ruby-on: "Ruby on Rails Tutorial"
@@ -45,3 +50,7 @@ en:
   helpers:
     application_helper:
       ruby_sample_app: "Ruby on Rails Tutorial Sample App"
+  sessions:
+    new:
+      login: "Log in"
+      new-user: "New user?"
