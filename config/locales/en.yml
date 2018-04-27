@@ -41,12 +41,26 @@ en:
       sign-now: "Sign up now!"
       rails-logo: "Rails logo"
   users:
+    please_login: "Please log in."
     new:
       user-new: "Users#new"
       find-me-user: "Find me in app/views/users/new.html.erb"
       sign-up: "Sign up"
       confirm: "Confirmation"
-      create-account: "Create my account"
+      create_account: "Create my account"
+    edit:
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      save_change: "Save changes"
+      change: "change"
+    update:
+      profile_update: "Profile updated"
+    index:
+      all_user: "All users"
+    destroy:
+      delete: "delete"
+      you_sure: "You sure?"
+      user_delete: "User deleted"
   helpers:
     application_helper:
       ruby_sample_app: "Ruby on Rails Tutorial Sample App"

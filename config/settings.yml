@@ -6,3 +6,6 @@ rubyonrail: "http://rubyonrails.org"
 contact_rail: "http://www.railstutorial.org/contact"
 help_rail: "http://www.railstutorial.org/help"
 michael: "http://www.michaelhartl.com"
+gravatar_email: "http://gravatar.com/emails"
+users:
+  gravatar_size: 50
