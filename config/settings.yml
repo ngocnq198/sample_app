@@ -9,3 +9,9 @@ michael: "http://www.michaelhartl.com"
 gravatar_email: "http://gravatar.com/emails"
 users:
   gravatar_size: 50
+microposts:
+  content_max: 140
+  gravatar_size: 50
+shared:
+  gravatar_size: 50
+

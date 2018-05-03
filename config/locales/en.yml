@@ -3,6 +3,7 @@ en:
   about: "About"
   contact: "Contact"
   home: "Home"
+  test: "should be less than 5MB"
   layouts:
     header:
       sample: "sample app"
@@ -40,6 +41,7 @@ en:
       sample-apli: "sample application"
       sign-now: "Sign up now!"
       rails-logo: "Rails logo"
+      micropost_feed: "Micropost Feed"
   users:
     please_login: "Please log in."
     new:
@@ -101,3 +103,15 @@ en:
     request_active_email: "Account not activated.Check your email for the activation link."
   mailer:
     password_reset: "Password reset"
+  microposts:
+    post: "Posted"
+    ago: "ago."
+    create:
+      micropost_create: "Micropost created!"
+    destroy:
+      micropost_destroy: "Micropost deleted"
+  shared:
+    view_profile: "view my profile"
+    micropost: "micropost"
+    compose_new: "Compose new micropost..."
+    post: "Post"
