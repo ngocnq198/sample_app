@@ -5,11 +5,11 @@ class User < ApplicationRecord
   validates :email, presence: true, length: {maximum: Settings.user.email.max_length},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   has_secure_password
-  validates :password, presence: true length: {minimum: Settings.user.password.min_length},
-  allow_nil: true
+  validates :password, presence: true, length: {minimum: Settings.user.password.min_length},
+    allow_nil: true
 
   private
-    def downcase_email
-      self.email.downcase!
-    end
+  def downcase_email
+    self.email.downcase!
+  end
 end
